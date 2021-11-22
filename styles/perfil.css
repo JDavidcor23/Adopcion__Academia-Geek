@@ -1,0 +1,101 @@
+:root {
+  --pink: #fec7d7;
+  --black: #0e172c;
+  --grey: #535353;
+  --cian: #85d1ce;
+  --secondary: #a786df;
+  --tertiary: #d9d4e7;
+  --white: #fffffe;
+}
+h2 {
+  padding: 0 0 0 20px;
+}
+.descripcion-perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.descripcion-perfil img {
+  width: 100px;
+}
+.descripcion-perfil p {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.container-inputs {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  margin-bottom: 80px;
+}
+.container-inputs input {
+  height: 30px;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+.container-inputs p {
+  font-size: 1.2rem;
+  margin: 10px 0 10px 20px;
+}
+.container-inputs button {
+  margin-top: 20px;
+  height: 40px;
+  color: var(--white);
+  background: var(--black);
+  border-radius: 20px;
+  font-size: 1.1rem;
+}
+/*-------------------------------footer-------------------*/
+.container-img a .img-home {
+  background: white;
+  margin-left: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../img/house.png");
+  width: 30px;
+  height: 30px;
+}
+.container-img .img-menssage {
+  background: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../img/message.png");
+  width: 30px;
+  height: 30px;
+}
+.container-img .img-heart {
+  background: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../img/corazon.png");
+  width: 30px;
+  height: 30px;
+}
+.container-img-black .img-perfil {
+  left: 10px;
+  bottom: -15px;
+  position: absolute;
+  background-color: var(--black);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../img/message-green.png");
+  width: 30px;
+  height: 30px;
+}
+.container-img-black p {
+  position: absolute;
+  top: -28px;
+  left: 48px;
+  font-size: 1.2rem;
+  color: var(--cian);
+  background-color: var(--black);
+}
+.text-flecha {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
