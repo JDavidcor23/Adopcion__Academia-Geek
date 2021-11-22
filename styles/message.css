@@ -1,0 +1,111 @@
+:root {
+  --pink: #fec7d7;
+  --black: #0e172c;
+  --grey: #535353;
+  --cian: #85d1ce;
+  --secondary: #a786df;
+  --tertiary: #d9d4e7;
+  --white: #fffffe;
+}
+h2 {
+  font-size: 2rem;
+  margin-left: 20px;
+  font-weight: bold;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+}
+.container-message {
+  display: flex;
+  justify-content: center;
+}
+.container-message a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.message {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 10px;
+  width: 90%;
+}
+.message img {
+  width: 85px;
+  height: 80px;
+}
+.message .text {
+  margin-left: 10px;
+}
+.message .text h3 {
+  color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  font-size: 1.4rem;
+}
+.message .text h3 span {
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+.message .text p {
+  color: #9b9b9b;
+}
+/*--------------------------footer------------------------ */
+.container-img a .img-home {
+  background: white;
+  margin-left: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../img/house.png");
+  width: 30px;
+  height: 30px;
+}
+.container-img-black .img-menssage {
+  left: 10px;
+  bottom: -15px;
+  position: absolute;
+  background-color: var(--black);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../img/message-green.png");
+  width: 30px;
+  height: 30px;
+}
+.container-img .img-heart {
+  background: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../img/corazon.png");
+  width: 30px;
+  height: 30px;
+}
+.container-img .img-perfil {
+  background: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../img/perfil.png");
+  width: 30px;
+  height: 30px;
+  padding-right: 15px;
+}
+.container-img-black p {
+  position: absolute;
+  top: -28px;
+  left: 48px;
+  font-size: 1.2rem;
+  color: var(--cian);
+  background-color: var(--black);
+}
+.text-flecha {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

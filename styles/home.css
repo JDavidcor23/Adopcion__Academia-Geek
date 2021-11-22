@@ -1,0 +1,153 @@
+.container-categorias {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.sub-container {
+  color: white;
+  width: 800px;
+  height: 110px;
+  left: 0px;
+  top: 0px;
+  background: #0e172c;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  flex-grow: 0;
+  margin: 0px 5px;
+}
+.container-img-black a .img-home {
+  left: 10px;
+  bottom: -15px;
+  position: absolute;
+  background-color: var(--black);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../img/house-green.png");
+  width: 30px;
+  height: 30px;
+}
+.container-img-black p {
+  position: absolute;
+  top: -28px;
+  left: 55px;
+  font-size: 1.2rem;
+  color: var(--cian);
+  background-color: var(--black);
+}
+.container-img .img-menssage {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../img/message.png");
+  width: 30px;
+  height: 30px;
+}
+.container-img .img-heart {
+  background: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../img/corazon.png");
+  width: 30px;
+  height: 30px;
+}
+.container-img .img-perfil {
+  background: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../img/perfil.png");
+  width: 30px;
+  height: 30px;
+  padding-right: 15px;
+}
+
+.circle {
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  position: static;
+  width: 84px;
+  height: 84px;
+  left: 8px;
+  top: 8px;
+  border-radius: 50%;
+  background: var(--cian);
+}
+.sub-container p {
+  margin: 0px 10px;
+  font-size: 1.4rem;
+}
+.img-perro {
+  background-image: url("../img/perro-c.png");
+  background-size: contain;
+  width: 80px;
+  height: 80px;
+}
+.img-gato {
+  background-image: url("../img/gato-c.png");
+  background-size: contain;
+  width: 80px;
+  height: 80px;
+}
+h2 {
+  font-size: 2rem;
+  padding-left: 10px;
+}
+.categorias {
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding-left: 10px;
+}
+#mascotas-2 {
+  margin-top: 20px;
+}
+.principal-container-mascotas {
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container-mascotas {
+  justify-content: center;
+  display: flex;
+  margin: 10px 10px;
+}
+.mascota {
+  border-radius: 10px;
+  width: 160px;
+  height: 250px;
+  display: flex;
+  justify-content: flex-end;
+}
+.mascota .background-img {
+  background-image: url("../img/perros\ \(1\).png");
+  width: 100%;
+  border-radius: 10px;
+  background-size: cover;
+}
+.black {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background: linear-gradient(
+    360deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 12, 5, 1) 0%,
+    rgba(255, 255, 255, 0) 35%
+  );
+}
+.mascota .background-img .black p {
+  margin: 5px;
+  color: white;
+  font-size: 1.2rem;
+}
+.mascota .black p:nth-child(1) {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
