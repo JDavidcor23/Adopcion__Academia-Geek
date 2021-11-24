@@ -1,0 +1,178 @@
+:root {
+  --pink: #fec7d7;
+  --black: #0e172c;
+  --grey: #535353;
+  --cian: #85d1ce;
+  --secondary: #a786df;
+  --tertiary: #d9d4e7;
+  --white: #fffffe;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.contaner-img-detalle {
+  position: relative;
+  height: 440px;
+}
+.row-black {
+  top: 5px;
+  width: 50px;
+  left: 5px;
+  position: absolute;
+}
+.contaner-img-detalle .mascota {
+  width: 100%;
+  object-fit: cover;
+  height: 440px;
+}
+.container-detalle {
+  position: relative;
+  padding-bottom: 40px;
+}
+.detalle_body {
+  top: -25px;
+  background: var(--white);
+  border-radius: 15px;
+  position: absolute;
+}
+.container-description {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  flex-direction: column;
+}
+.detalle-name_sex {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.name-sex {
+  display: flex;
+}
+.name-sex h2 {
+  font-size: 1.8rem;
+}
+.name-sex img {
+  width: 45px;
+  margin: 20px 0 0 5px;
+}
+.circle_corazon {
+  margin: 8px 0 0 0;
+  box-shadow: 3px 9px 23px -4px rgb(0 0 0 / 75%);
+  padding: 13px;
+  border-radius: 50%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle_corazon img {
+  width: 30px;
+}
+.edad_raza {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.raza,
+.edad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.raza > span > img {
+  width: 40px;
+}
+.edad > span > img {
+  width: 40px;
+}
+.edad p {
+  font-size: 1.2rem;
+  color: var(--grey);
+}
+.raza p {
+  color: var(--grey);
+  font-size: 1.2rem;
+}
+.direccion {
+  display: flex;
+  align-items: center;
+}
+.direccion span img {
+  width: 30px;
+}
+.direccion_p {
+  font-family: "Nunito", sans-serif;
+  margin: 0 0 0 10px;
+  color: var(--grey);
+  font-size: 1.2rem;
+}
+.direccion_p p {
+  margin: 0;
+}
+.container-personalidad {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.personalidad {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.border_img {
+  display: flex;
+  padding: 5px 15px 5px 15px;
+  border: 2px solid var(--secondary);
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.border_img img {
+  width: 70px;
+  height: 55px;
+}
+.border_img p {
+  color: var(--grey);
+  font-size: 1.2rem;
+}
+.container-historia {
+  width: 90%;
+  margin: 0 auto;
+}
+.container-historia p {
+  font-size: 1.2rem;
+}
+.container-perfil__vendedor {
+  display: flex;
+  width: 95%;
+  align-items: center;
+  margin: 0 auto;
+}
+.container-perfil__vendedor img {
+  height: 70px;
+}
+.contenedor__contactame p {
+  margin: 5px 0 0 5px;
+}
+.contenedor__contactame p:nth-child(2) {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.container-perfil__vendedor button {
+  margin: 0 0 0 20px;
+  height: 50px;
+  font-size: 1.2rem;
+  background: var(--black);
+  color: var(--white);
+  padding: 0 26px;
+  border-radius: 20px;
+}

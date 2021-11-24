@@ -8,6 +8,7 @@
   --white: #fffffe;
 }
 body {
+  font-family: "Nunito", sans-serif;
   background-color: var(--pink);
   box-sizing: border-box;
   padding: 0;
@@ -15,9 +16,10 @@ body {
 }
 
 footer {
-  margin-top: 20px;
   width: 100%;
+  position: fixed;
   height: 100px;
+  bottom: 0;
   background-color: var(--white);
   display: flex;
   justify-content: space-between;

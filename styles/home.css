@@ -5,7 +5,9 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .sub-container {
+  width: 80%;
   color: white;
   height: 110px;
   left: 0px;
@@ -98,9 +100,13 @@ h2 {
   font-size: 1.4rem;
   padding-left: 10px;
 }
-#mascotas-2 {
-  margin-top: 20px;
+.principal-container-mascotas a {
+  text-decoration: none;
 }
+.container-main {
+  margin-bottom: 120px;
+}
+
 .principal-container-mascotas {
   display: flex;
   margin: 0 auto;
