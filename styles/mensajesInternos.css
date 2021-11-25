@@ -38,6 +38,8 @@ header {
   position: absolute;
 }
 .container-perfil-vendedor img {
+  border: 5px solid var(--cian);
+  border-radius: 50%;
   width: 100px;
 }
 .container-text-menssage {

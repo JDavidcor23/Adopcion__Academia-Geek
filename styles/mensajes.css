@@ -38,7 +38,6 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 90%;
   font-size: 1.4rem;
 }
 .message .text h3 span {
@@ -48,48 +47,53 @@ main {
 .message .text p {
   color: #9b9b9b;
 }
+.circle-img img {
+  border: 5px solid var(--cian);
+  border-radius: 50%;
+  width: 80px;
+}
 /*--------------------------footer------------------------ */
 .container-img a .img-home {
   background: white;
   margin-left: 15px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url("../img/house.png");
-  width: 30px;
-  height: 30px;
+  background-image: url("https://i.ibb.co/2YHK1Vr/house.png");
+  width: 25px;
+  height: 25px;
 }
 .container-img-black .img-menssage {
   left: 10px;
-  bottom: -15px;
+  bottom: -13px;
   position: absolute;
   background-color: var(--black);
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url("../img/message-green.png");
-  width: 30px;
-  height: 30px;
+  background-image: url("https://i.ibb.co/12nJ8q0/message-green.png");
+  width: 25px;
+  height: 25px;
 }
 .container-img .img-heart {
   background: white;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url("../img/corazon.png");
-  width: 30px;
-  height: 30px;
+  background-image: url("https://i.ibb.co/0Xx6Z0Q/corazon-black.png");
+  width: 35px;
+  height: 25px;
 }
 .container-img .img-perfil {
   background: white;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url("../img/perfil.png");
-  width: 30px;
-  height: 30px;
+  background-image: url("https://i.ibb.co/D9nbrtZ/perfil.png");
+  width: 25px;
+  height: 25px;
   padding-right: 15px;
 }
 .container-img-black p {
   position: absolute;
-  top: -28px;
-  left: 48px;
+  top: -30px;
+  left: 40px;
   font-size: 1.2rem;
   color: var(--cian);
   background-color: var(--black);

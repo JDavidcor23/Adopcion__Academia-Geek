@@ -158,7 +158,9 @@ body {
   margin: 0 auto;
 }
 .container-perfil__vendedor img {
-  height: 70px;
+  border: 5px solid var(--cian);
+  border-radius: 50%;
+  width: 50px;
 }
 .contenedor__contactame p {
   margin: 5px 0 0 5px;
