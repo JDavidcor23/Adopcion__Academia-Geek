@@ -1,23 +1,21 @@
-.container-main {
-  display: flex;
-  width: 100%;
-  animation: 2.5s animales ease-in-out;
-}
-@keyframes animales {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
 .categogiras {
   width: 100%;
   margin: 0 auto;
   display: flex;
 }
+.container-categorias-opacity {
+  opacity: 0.5;
+  display: flex;
+  cursor: pointer;
+
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
 .container-categorias {
   display: flex;
+  cursor: pointer;
   margin: 0 auto;
   width: 100%;
   align-items: center;
@@ -113,7 +111,15 @@ h2 {
 
 .principal-container-mascotas a {
   text-decoration: none;
-  margin: 0 0 20px 0;
+  animation: 1.5s animales ease-in-out;
+}
+@keyframes animales {
+  0% {
+    transform: translateY(700px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 .container-main {
   margin-bottom: 120px;
@@ -131,13 +137,13 @@ h2 {
 .container-mascotas {
   justify-content: center;
   display: flex;
-  margin: 10px 5px;
+  margin: 10px 5px 10px 5px;
 }
 .mascota {
   border-radius: 10px;
   position: relative;
   width: 175px;
-  height: 250px;
+  height: 280px;
   justify-content: flex-end;
 }
 .mascota img {
@@ -146,12 +152,12 @@ h2 {
 }
 .black {
   position: absolute;
-  top: 30px;
+  top: 0;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
   width: 100%;
-  height: 100%;
+  height: 102%;
   border-radius: 10px;
   background: linear-gradient(
     360deg,
@@ -162,9 +168,10 @@ h2 {
 }
 .black p:nth-child(1) {
   font-weight: bold;
+  font-size: 1.4rem;
 }
 .black p {
   margin: 5px 0 5px 5px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: var(--white);
 }
