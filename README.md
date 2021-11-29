@@ -20,7 +20,9 @@ Puedes verlo aquí: <https://jdavidcor23.github.io/Adopcion__Academia-Geek/>
 
 ## 📌 Stack
 
-<escribe aquí>
+<HTML5>
+<CSS3>
+<Javascript vanilla>
 
 ## 🌟 Autor
 
