@@ -12,15 +12,25 @@ Puedes verlo aquí: <https://jdavidcor23.github.io/Adopcion__Academia-Geek/>
 
 ### 💻 Desktop
 
-<imagen aquí>
+[![desktop-1](https://res.cloudinary.com/dbtk64lp4/image/upload/v1638155360/Adopcion/readme.md/desktop-1_ltduor.png "desktop-1")](https://res.cloudinary.com/dbtk64lp4/image/upload/v1638155360/Adopcion/readme.md/desktop-1_ltduor.png "desktop-1")
+
+[![desktop-2](https://res.cloudinary.com/dbtk64lp4/image/upload/v1638155360/Adopcion/readme.md/desktop-2_wkaehz.png "desktop-2")](https://res.cloudinary.com/dbtk64lp4/image/upload/v1638155360/Adopcion/readme.md/desktop-2_wkaehz.png "desktop-2")
+
+[![desktop-3](https://res.cloudinary.com/dbtk64lp4/image/upload/v1638155360/Adopcion/readme.md/desktop-3_rixfrz.png "desktop-3")](https://res.cloudinary.com/dbtk64lp4/image/upload/v1638155360/Adopcion/readme.md/desktop-3_rixfrz.png "desktop-3")
 
 ### 📱 Mobile
 
-<imagen aquí>
+[![mobile-1](https://res.cloudinary.com/dbtk64lp4/image/upload/v1638155360/Adopcion/readme.md/mobile-1_gvlivi.png "mobile-1")](https://res.cloudinary.com/dbtk64lp4/image/upload/v1638155360/Adopcion/readme.md/mobile-1_gvlivi.png "mobile-1")
+
+[![mobile-2](https://res.cloudinary.com/dbtk64lp4/image/upload/v1638155360/Adopcion/readme.md/mobile-2_fmxch7.png "mobile-2")](https://res.cloudinary.com/dbtk64lp4/image/upload/v1638155360/Adopcion/readme.md/mobile-2_fmxch7.png "mobile-2")
+
+[![mobile-3](https://res.cloudinary.com/dbtk64lp4/image/upload/v1638155360/Adopcion/readme.md/mobile-3_dfyfnb.png "mobile-3")](https://res.cloudinary.com/dbtk64lp4/image/upload/v1638155360/Adopcion/readme.md/mobile-3_dfyfnb.png "mobile-3")
 
 ## 📌 Stack
 
-- **<Javascript vanilla, CSS3, HTML5>**
+- ##### JavaScript Vanilla
+- ##### CSS3
+- ##### HTML5
 
 ## 🌟 Autor
 
