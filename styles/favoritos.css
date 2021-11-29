@@ -176,3 +176,31 @@ h2 {
   font-size: 1.2rem;
   color: var(--white);
 }
+@media (min-width: 800px) {
+  .principal-container-mascotas {
+    width: 90%;
+  }
+  .mascota img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .categogiras {
+    width: 90%;
+  }
+  .mascota {
+    width: 230px;
+    height: 325px;
+  }
+  .container-main {
+    margin-bottom: 210px;
+  }
+  h2 {
+    padding: 0;
+    text-align: center;
+  }
+  .categorias {
+    text-align: center;
+    padding: 0;
+  }
+}

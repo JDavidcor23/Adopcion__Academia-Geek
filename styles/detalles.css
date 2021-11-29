@@ -154,6 +154,7 @@ body {
 .container-perfil__vendedor {
   display: flex;
   width: 95%;
+  padding-bottom: 50px;
   align-items: center;
   margin: 0 auto;
 }
@@ -177,4 +178,14 @@ body {
   color: var(--white);
   padding: 0 26px;
   border-radius: 20px;
+}
+@media (min-width: 500px) {
+  .contaner-img-detalle .mascota {
+    width: 100%;
+    object-fit: contain;
+    height: 440px;
+  }
+  .detalle_body {
+    box-shadow: -1px -3px 22px 1px rgba(0, 0, 0, 0.75);
+  }
 }

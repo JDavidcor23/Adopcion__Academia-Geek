@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="text-flecha">
                     <div class="text">
                         <h3>${nombre}<span>${hora}</span></h3>
-                        <p>${parrafo}}</p>
+                        <p>${parrafo}</p>
                     </div>
                     <img src="https://res.cloudinary.com/dbtk64lp4/image/upload/v1638137624/Adopcion/Vector_iftg4f.png" alt="">
                 </div>
