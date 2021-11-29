@@ -52,7 +52,9 @@ main {
 .circle-img img {
   border: 5px solid var(--cian);
   border-radius: 50%;
-  width: 80px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
 }
 /*--------------------------footer------------------------ */
 .container-img a .img-home {
@@ -60,7 +62,7 @@ main {
   margin-left: 15px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url("https://i.ibb.co/2YHK1Vr/house.png");
+  background-image: url("https://res.cloudinary.com/dbtk64lp4/image/upload/v1638138346/Adopcion/Component_1_gk3r6h.png");
   width: 25px;
   height: 25px;
 }
@@ -71,7 +73,7 @@ main {
   background-color: var(--black);
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url("https://i.ibb.co/12nJ8q0/message-green.png");
+  background-image: url("https://res.cloudinary.com/dbtk64lp4/image/upload/v1638104244/Adopcion/Vector_2_qxlcyo.png");
   width: 25px;
   height: 25px;
 }
@@ -79,7 +81,7 @@ main {
   background: white;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url("https://i.ibb.co/0Xx6Z0Q/corazon-black.png");
+  background-image: url("https://res.cloudinary.com/dbtk64lp4/image/upload/v1638104239/Adopcion/Vector_1_misyqs.png");
   width: 35px;
   height: 25px;
 }
@@ -87,7 +89,7 @@ main {
   background: white;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url("https://i.ibb.co/D9nbrtZ/perfil.png");
+  background-image: url("https://res.cloudinary.com/dbtk64lp4/image/upload/v1638138639/Adopcion/Component_2_jmlqbx.png");
   width: 25px;
   height: 25px;
   padding-right: 15px;
@@ -105,4 +107,9 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.text-flecha img {
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
 }

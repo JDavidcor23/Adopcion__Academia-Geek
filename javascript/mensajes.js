@@ -25,35 +25,29 @@ const listaMensajes = [
 
     }
 ]
+const btnMensaje =(id)=>{
+    let findOwner = listaMensajes.find(owner => owner.id === id)
+    localStorage.setItem("Mensajes", JSON.stringify(findOwner))
+}
 document.addEventListener('DOMContentLoaded', () => {
     listaMensajes.forEach(mensaje  =>{
         const {id,parrafo, imagen, nombre, hora} = mensaje
         containerMessage.innerHTML+=`
-        <a href="#" class="link-mensaje">
-                <div class="message">
-                    <div class="circle-img">
-                        <img src="${imagen}" alt="">
-                    </div>
-                    <div class="text-flecha">
-    
-                        <div class="text">
-                            <h3>${nombre}<span>${hora}</span></h3>
-                            <p>${parrafo}}</p>
-                        </div>
-                        <img src="https://i.ibb.co/xgWdjkV/flecha.png" alt="" style="height: 30px;">
-                    </div>
+        <a href="./mensagesInternos.html" class="link-mensaje" onclick="btnMensaje(${id})">
+            <div class="message">
+                <div class="circle-img">
+                    <img src="${imagen}" alt="">
                 </div>
-            </a>
+                <div class="text-flecha">
+                    <div class="text">
+                        <h3>${nombre}<span>${hora}</span></h3>
+                        <p>${parrafo}}</p>
+                    </div>
+                    <img src="https://res.cloudinary.com/dbtk64lp4/image/upload/v1638137624/Adopcion/Vector_iftg4f.png" alt="">
+                </div>
+            </div>
+        </a>
         `
-        btnMensajes = document.querySelector(".link-mensaje")
-        btnMensajes.addEventListener('click', (e)=>{
-            e.preventDefault()
-            console.log("SIIUuu")
-            // const btnDetail = e.target.classList.contains('black')
-            // if(btnDetail){
-            //     const objeto = mascotas.find(animal => animal.id === Number(id))
-            //     localStorage.setItem("Detalle", JSON.stringify(objeto))
-            // }
-        })
+
     })
 })

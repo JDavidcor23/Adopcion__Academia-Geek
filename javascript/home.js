@@ -22,16 +22,16 @@ const mostrarMascotas = (mascotas) =>{
         const {id, img, name, race, type} =mascota
         containerMascotas.innerHTML+=`
         <a href="./detalleMascota.html" class="link-mascota">
-        <div class="container-mascotas">
-        <div class="mascota">
-        <img src="${img}" alt="${type}">
-        <div class="black" id="${id}">
-                                <p>${name}</p>
-                                <p>${race}</p>
-                            </div>
-                            </div>
+            <div class="container-mascotas">
+                <div class="mascota">
+                    <img src="${img}" alt="${type}">
+                    <div class="black" id="${id}">
+                        <p>${name}</p>
+                        <p>${race}</p>
+                    </div>
                 </div>
-                </a>
+            </div>
+            </a>
         `
     });
 }

@@ -21,10 +21,10 @@ document.addEventListener('DOMContentLoaded', () => {
            sex, personalityImg} = datosMascota
     let imgSex = ''
     if(sex === "male"){
-        imgSex = 'https://i.ibb.co/W64zJZz/male.png'
+        imgSex = 'https://res.cloudinary.com/dbtk64lp4/image/upload/v1638104243/Adopcion/male_albxr3.png'
     }
     else{
-        imgSex = 'https://i.ibb.co/tZfkQ7v/female.png'
+        imgSex = 'https://res.cloudinary.com/dbtk64lp4/image/upload/v1638139285/Adopcion/female_ysyxtp.png'
     }
     // muestra la imagen
      imagenDetalle.innerHTML=`
@@ -42,21 +42,21 @@ document.addEventListener('DOMContentLoaded', () => {
                     <h2>${name}</h2><span><img src="${imgSex}" alt=""></span>
                 </div>
                 <div class="circle_corazon">
-                    <img src="https://i.ibb.co/tMyQ4Wc/corazon1.png" alt="" id="corazon">
+                    <img src="https://res.cloudinary.com/dbtk64lp4/image/upload/v1638104244/Adopcion/Union_augfrh.png" alt="" id="corazon">
                 </div>
             </div>
             <div class="edad_raza">
                 <div class="raza">
-                    <span><img src="https://i.ibb.co/kQ3KSpS/raza.png" alt=""></span>
+                    <span><img src="https://res.cloudinary.com/dbtk64lp4/image/upload/v1638104244/Adopcion/edad_xwqaz8.png" alt=""></span>
                     <p>${race}</p>
                 </div>
                 <div class="edad">
-                    <span><img src="https://i.ibb.co/bXPPbDS/edad.png" alt=""></span>
+                    <span><img src="https://res.cloudinary.com/dbtk64lp4/image/upload/v1638104244/Adopcion/raza_xw7ucd.png" alt=""></span>
                     <p>${age}</p>
                 </div>
             </div>
             <div class="direccion">
-                <span><img src="https://i.ibb.co/RP19YjH/direccion.png" alt=""></span>
+                <span><img src="https://res.cloudinary.com/dbtk64lp4/image/upload/v1638104244/Adopcion/Component_1_1_wmqqfn.png" alt=""></span>
                 <div class="direccion_p">
                     <p>${city}</p>
                     <p>${ubication}</p>
@@ -103,10 +103,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if(hayMascota === true){
         //Automaticamente le pone la imagen como favorito
-        btnFavoritosImg.src = "https://i.ibb.co/DtvQ4p7/corazon2.png"
+        btnFavoritosImg.src = "https://res.cloudinary.com/dbtk64lp4/image/upload/v1638104244/Adopcion/Union_1_r3hzir.png"
         //Esta funcion te permite quitar la mascota de favoritos
         btnFavoritos.addEventListener('click', ()=>{
-            btnFavoritosImg.src = "https://i.ibb.co/tMyQ4Wc/corazon1.png"
+            btnFavoritosImg.src = "https://res.cloudinary.com/dbtk64lp4/image/upload/v1638104244/Adopcion/Union_augfrh.png"
             let borarElemento = mascotasFavoritas.findIndex(favorito =>favorito.name === name)
             mascotasFavoritas.splice(borarElemento, 1)
             localStorage.setItem("Favoritos", JSON.stringify(mascotasFavoritas))
@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }else{
         //Añade la mascota a favoritos
         btnFavoritos.addEventListener('click', ()=>{
-            btnFavoritosImg.src = "https://i.ibb.co/DtvQ4p7/corazon2.png"
+            btnFavoritosImg.src = "https://res.cloudinary.com/dbtk64lp4/image/upload/v1638104244/Adopcion/Union_1_r3hzir.png"
             mascotasFavoritas.push(datosMascota)
             localStorage.setItem("Favoritos", JSON.stringify(mascotasFavoritas))
             //fuerza a recargar la pagina
