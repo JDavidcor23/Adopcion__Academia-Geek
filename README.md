@@ -20,10 +20,8 @@ Puedes verlo aquí: <https://jdavidcor23.github.io/Adopcion__Academia-Geek/>
 
 ## 📌 Stack
 
-<HTML5>
-<CSS3>
-<Javascript vanilla>
+- **<Javascript vanilla, CSS3, HTML5>**-Javascript vanilla, CSS3, HTML5
 
 ## 🌟 Autor
 
-- **<Jorge David Diaz Cordero>** - [@JDavidcor23](https://github.com/JDavidcor23)
+- **<Jorge David Diaz Cordero>** -Jorge David Diaz Cordero --- [@JDavidcor23](https://github.com/JDavidcor23)
